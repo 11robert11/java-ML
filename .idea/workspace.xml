@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="" />
+    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Commi">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Fuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Fuction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tk/barnettabc/javaml/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tk/barnettabc/javaml/AppTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1xT5Z7ho2DokdaHNfj9EsYcEJWK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -41,6 +50,14 @@
       <option name="presentableId" value="Default" />
       <updated>1630366291018</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commi">
+      <created>1630370590416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630370590416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -54,5 +71,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commi" />
   </component>
 </project>
