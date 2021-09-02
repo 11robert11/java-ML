@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Commi">
-      <change afterPath="$PROJECT_DIR$/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaml_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NeuralNetwork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Fuction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Function.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Fuction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/neuralNetworkInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/neuralNetworkInterface.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +39,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1xT5Z7ho2DokdaHNfj9EsYcEJWK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,16 +57,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tk.barnettabc.javaml.App" />
+      <option name="MAIN_CLASS_NAME" value="tk.barnettabc.javaml.controll.App" />
       <module name="java-ML" />
       <option name="VM_PARAMETERS" value="-Dlog4j.configurationFile=log4j2.xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tk.barnettabc.javaml.*" />
+          <option name="PATTERN" value="tk.barnettabc.javaml.controll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,7 +108,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="26" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="26" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="25" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
