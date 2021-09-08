@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="in the middle of something">
-      <change afterPath="$PROJECT_DIR$/INFO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" afterDir="false" />
+    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Commi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
