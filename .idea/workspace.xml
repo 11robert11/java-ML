@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Added some files">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/Neuron.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/WeightLayer.java" afterDir="false" />
+    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Added some files, forward proporgation is now working">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INFO.md" beforeDir="false" afterPath="$PROJECT_DIR$/INFO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Function.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tk/barnettabc/javaml/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tk/barnettabc/javaml/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/Neuron.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/Neuron.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +59,7 @@
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tk.barnettabc.javaml.controll.App" />
       <module name="java-ML" />
-      <option name="VM_PARAMETERS" value="-Dlog4j.configurationFile=log4j2.xml" />
+      <option name="VM_PARAMETERS" value="-Dlog4j.configurationFile=log4j2.xml -Xmx5G -Xms5G" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tk.barnettabc.javaml.controll.*" />
@@ -116,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631130755452</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added some files, forward proporgation is now working">
+      <created>1631320459475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631320459475</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,7 +141,8 @@
     <MESSAGE value="in the middle of something" />
     <MESSAGE value="Did more restructoring." />
     <MESSAGE value="Added some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some files" />
+    <MESSAGE value="Added some files, forward proporgation is now working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some files, forward proporgation is now working" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_ML$App.ic" NAME="App Coverage Results" MODIFIED="1631319872634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

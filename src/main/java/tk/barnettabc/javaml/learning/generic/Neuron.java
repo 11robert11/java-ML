@@ -13,6 +13,7 @@ import tk.barnettabc.javaml.learning.NNFunctions;
 public class Neuron {
     double Input;
     double state;
+    double expectedState;   //Not Yet Implemented, going to be for back probigation
     private Logger logger = LoggerFactory.getLogger(this.getClass().getName());
 
     /***
