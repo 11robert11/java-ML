@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Commi">
+    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Added some files">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/Neuron.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/WeightLayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INFO.md" beforeDir="false" afterPath="$PROJECT_DIR$/INFO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/generic/NeuralNetwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tk/barnettabc/javaml/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tk/barnettabc/javaml/AppTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +58,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$USER_HOME$/binaryHW" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -92,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630370590416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Did more restructoring.">
+      <created>1631130731232</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631130731232</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added some files">
+      <created>1631130755452</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631130755452</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +142,13 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commi" />
     <MESSAGE value="in the middle of something" />
-    <option name="LAST_COMMIT_MESSAGE" value="in the middle of something" />
+    <MESSAGE value="Did more restructoring." />
+    <MESSAGE value="Added some files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some files" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_ML$App.ic" NAME="App Coverage Results" MODIFIED="1631319872634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tk.barnettabc.javaml.controll.*</FILTER>
+    </SUITE>
   </component>
 </project>

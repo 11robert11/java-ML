@@ -12,6 +12,8 @@ public class NNFunctions {
         switch (FUNCTION.toLowerCase())  {
             case "sigmoid":
                 return sigmoid(x);
+            case "no-function":
+                    return (x);
             default:
                 return 0;
         }
