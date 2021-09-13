@@ -7,10 +7,11 @@ public class NNFunctions {
     public static double cost(double[] expected, double[] reality)  {
         double cost = 0;
         if(expected.length!=reality.length) {
+            System.out.println("COST ERRRRROOOOORRRR");
             return Double.parseDouble(null);
         }
         for(int i = 0; i<expected.length; i++)  {
-            cost+= reality[i]*reality[i]-expected[i]*expected[i];
+            cost+= Math.sqrt(Math.abs((reality[i]*reality[i])-(expected[i]*expected[i])));
         }
         return cost;
     }
