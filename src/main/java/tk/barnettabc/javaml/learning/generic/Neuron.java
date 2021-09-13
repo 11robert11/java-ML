@@ -11,9 +11,11 @@ import tk.barnettabc.javaml.learning.NNFunctions;
  *  - OUTPUT (double) OUTPUT
  */
 public class Neuron {
-    double Input;
-    double state;
-    double expectedState;   //Not Yet Implemented, going to be for back probigation
+    public double Input;
+    public double state;
+    public double bias;
+    public double backIn;  //
+    public double backOut; //The x of the function
     private Logger logger = LoggerFactory.getLogger(this.getClass().getName());
 
     /***
@@ -22,22 +24,31 @@ public class Neuron {
      */
     public Neuron() {
         logger.info("Neuron Created");
+        backIn = 0;
+        backOut = 0;
+        //this.bias = Math.random();
+        this.bias=0;
+        System.out.println(this.bias);
     }
     public double calculateState()   {
-        state = NNFunctions.function("no-function", Input);
+        state = NNFunctions.sigmoid(Input+bias);
+        //state = NNFunctions.function("sigmoid", Input+bias);
+        logger.info("Calculating state");
         return state;
     }
+    public double calculateBackward()    {
+        backOut = NNFunctions.inverseSigmoid(backIn);
+        return backOut;
+    }
+
     public double getState()    {
         return state;
     }
-    /***
-     *
-     * @param INPUT double number to add on to the neurons input
-     */
+    public double getBackOut()  {return backOut;}
     public void addToInput(double Input)    {
         this.Input+=Input;
     }
-    public void setInput(double Input)  {
-        this.Input = Input;
-    }
+    public void setInput(double Input)  {this.Input = Input;}
+    public void addToBackIn(double backIn)  {this.backIn+=backIn;}
+    public void setBackIn(double backIn)  {this.backIn = backIn;}
 }

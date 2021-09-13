@@ -44,14 +44,29 @@ public class WeightLayer {
         return weights;
     }
 
-    public void weightPropagate() {
+    public void propogateForward() {
         for (int i = 0; i < nextLayer.getMyNeurons().size(); i++) {
             logger.info("Propogating weights");
-            nextLayer.getMyNeurons().get(i).setInput(0);
+            //nextLayer.getMyNeurons().get(i).setInput(0);
+            logger.info(String.format("Forward Propagating: %1$s -> %2$s", previousLayer.layerName, nextLayer.layerName));
+
             for (int a = 0; a < previousLayer.getMyNeurons().size(); a++) {
-                nextLayer.getMyNeurons().get(i).addToInput(previousLayer.getMyNeurons().get(a).getState() * weights[i][a]);
+                nextLayer.getMyNeurons().get(i).addToInput(previousLayer.getMyNeurons().get(a).calculateState() * weights[i][a]);
+            }
+            System.out.println("Next Layer input: " + nextLayer.getMyNeurons().get(0).Input);
+            System.out.println();
+        }
+    }
+    public void propogateBackward() {
+        for (int i = 0; i < previousLayer.getMyNeurons().size(); i++) {
+            logger.info(String.format("Back Progigating: %1$s <- %2$s", previousLayer.layerName, nextLayer.layerName));
+            previousLayer.myNeurons.get(i).setBackIn(0);
+            for (int a = 0; a < nextLayer.getMyNeurons().size(); a++) {
+                //previousLayer.myNeurons.get(i).addToBackIn(nextLayer.getMyNeurons().get(a).calculateBackward() / weights[a][i]);
+                //previousLayer.myNeurons.get(a).addToBackIn(nextLayer.getMyNeurons().get(a).calculateBackward() * weights[i][a]);
+                previousLayer.getMyNeurons().get(i).addToBackIn(nextLayer.getMyNeurons().get(a).calculateBackward() ); // NEED TO ADD WEIGHTS
+                //nextLayer.getMyNeurons().get(i).addToInput(previousLayer.getMyNeurons().get(a).calculateBackward() * weights[i][a]);
             }
         }
     }
-
 }

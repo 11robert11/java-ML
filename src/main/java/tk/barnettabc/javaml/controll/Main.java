@@ -1,5 +1,6 @@
 package tk.barnettabc.javaml.controll;
 
+import tk.barnettabc.javaml.learning.NNFunctions;
 import tk.barnettabc.javaml.learning.generic.NeuralLayer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,36 +16,39 @@ public class Main {
     private Logger logger = LoggerFactory.getLogger(this.getClass().getName());
     public Main(String[] args) {
         this.args = args;
-        NeuralLayer neuralLayer1 = new NeuralLayer(16384, "Input Layer 1");
-        NeuralLayer neuralLayer2 = new NeuralLayer(32768, "Test Layer 2");
-        NeuralLayer neuralLayer3 = new NeuralLayer(32768, "Test Layer 3");
-        NeuralLayer neuralLayer4 = new NeuralLayer(9, "Output Layer");
+        NeuralLayer inputLayer = new NeuralLayer(1,"Input");
+        NeuralLayer hiddenLayer = new NeuralLayer(1,"Hidden");
+        NeuralLayer outputLayer = new NeuralLayer(1,"Output");
+        NeuralLayer testLayer = new NeuralLayer(1, "Test Layer");
 
         WeightLayer weightLayer1 = new WeightLayer();
         WeightLayer weightLayer2 = new WeightLayer();
-        WeightLayer weightLayer3 = new WeightLayer();
 
-        weightLayer1.setPreviousLayer(neuralLayer1);
-        weightLayer1.setNextLayer(neuralLayer2);
+        weightLayer1.setPreviousLayer(inputLayer);
+        weightLayer1.setNextLayer(hiddenLayer);
 
-        weightLayer2.setPreviousLayer(neuralLayer2);
-        weightLayer2.setNextLayer(neuralLayer3);
-
-        weightLayer3.setPreviousLayer(neuralLayer3);
-        weightLayer3.setNextLayer(neuralLayer4);
+        weightLayer2.setPreviousLayer(hiddenLayer);
+        weightLayer2.setNextLayer(outputLayer);
 
         weightLayer1.initializeWeights();
         weightLayer2.initializeWeights();
 
-        for (Neuron neuron:neuralLayer1.getMyNeurons()) {
-            neuron.setInput(1);
-            neuron.calculateState();
-        }
-        weightLayer1.weightPropagate();
-        for (Neuron neuron:neuralLayer4.getMyNeurons()) {
-            neuron.calculateState();
-            System.out.println(neuron.getState());
-        }
+        inputLayer.getMyNeurons().get(0).setInput(5);
+
+        //weightLayer2.propogateBackward();
+        //weightLayer1.propogateBackward();
+        weightLayer1.propogateForward();
+        weightLayer2.propogateForward();
+        System.out.println(outputLayer.getMyNeurons().get(0).Input);
+        System.out.println(outputLayer.getMyNeurons().get(0).calculateState());
+        outputLayer.getMyNeurons().get(0).setBackIn(outputLayer.getMyNeurons().get(0).calculateState());
+
+        weightLayer2.propogateBackward();
+        weightLayer1.propogateBackward();
+        System.out.println("After Back Prop input layer backin: " + inputLayer.getMyNeurons().get(0).calculateBackward());
+        testLayer.getMyNeurons().get(0).setInput(4);
+        testLayer.getMyNeurons().get(0).setBackIn(testLayer.getMyNeurons().get(0).calculateState());
+        System.out.println(testLayer.getMyNeurons().get(0).calculateBackward());
 
     }
 }
