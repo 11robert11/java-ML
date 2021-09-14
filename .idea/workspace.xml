@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="More tests">
+    <list default="true" id="dc073af0-4ca9-42ed-bfd7-685993386aad" name="Default Changelist" comment="Back probigation is now partily working, just need to fix a few bugs and clean it up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_ML_jar/java-ML.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_ML_jar/java-ML.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/controll/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tk/barnettabc/javaml/learning/NNFunctions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tk/barnettabc/javaml/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tk/barnettabc/javaml/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/controll/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/controll/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/learning/NNFunctions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tk/barnettabc/javaml/learning/NNFunctions.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="discord-application" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tk.barnettabc.javaml.controll.App" />
       <module name="java-ML" />
@@ -71,8 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-ML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tk.barnettabc.javaml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tk.barnettabc.javaml" />
+      <option name="MAIN_CLASS_NAME" value="tk.barnettabc.javaml.AppTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>

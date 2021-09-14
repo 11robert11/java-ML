@@ -7,7 +7,7 @@ public class NNFunctions {
     public static double cost(double[] expected, double[] reality)  {
         double cost = 0;
         if(expected.length!=reality.length) {
-            System.out.println("COST ERRRRROOOOORRRR");
+            System.out.println("COST ERROR");
             return Double.parseDouble(null);
         }
         for(int i = 0; i<expected.length; i++)  {
